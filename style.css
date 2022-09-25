@@ -1,0 +1,49 @@
+body{
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(divertidamente_fundo.jpg);
+    background-size: cover; /*imagem cobre toda a tela*/
+    background-attachment: fixed; /*fixa a imagem de fundo*/
+}
+
+.titulo{
+    font-family: Arial;
+    color: #efefef;
+    border-bottom: 1px solid whitesmoke;
+    margin-right: 400px; /*mantém o titulo e a borda inferior sem ocupar a tela inteira */
+}
+
+.texto{
+    font-family: Calibri;
+    font-size: 20px;
+    margin-right: 400px;
+    color: #f0fff0;
+    list-style-type: circle;
+}
+
+figure img{
+    max-width: 1000%;
+    max-height: 400%;
+    text-align: left;
+}
+
+
+.personagens{
+    height: 50px;
+    width: 50px; /*height & width mantém o tamanho de cada ícone do personagem*/
+    margin: -30px;
+    float: left;
+    /*margin e float mantém os ícones à esquerda e os textos separados*/
+    
+}
+
+.descrição{
+    font-family: Calibri;
+    font-size: 18px;
+    margin-left: 140px; /*faz com que o texto comece após os ícones*/
+    margin-right: 400px; /*não permite que os textos ultrapassem a largura da borda inferior*/
+    margin-bottom: 0px;
+    color: #f0fff0;
+}
+
